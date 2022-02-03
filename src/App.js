@@ -14,6 +14,7 @@ class App extends React.Component {
 
   generateDeck = () => {
     const symbols = ["∆", "ß", "£", "§", "•", "$", "+", "ø"];
+    // const symbols = ['CAT', 'DOG', 'FRIEND', 'DINOSAUR', 'AXOLOTYL', 'FISH', 'SHARK', 'OCTOPUS']
     const deck = [];
     for(let i = 0; i < 16; i++){
       deck.push({
